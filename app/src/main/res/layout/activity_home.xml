@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    
+    <ImageView
+        android:id="@+id/mapIv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_app_logo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/design_default_color_primary">
+
+        <Button
+            android:id="@+id/orderNavigationBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Navigation"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_navigation_white"/>
+
+        <Button
+            android:id="@+id/profileBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_person_white"/>
+
+        <Button
+            android:id="@+id/historyListBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivered History"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_history_white"/>
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_logout_white"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
